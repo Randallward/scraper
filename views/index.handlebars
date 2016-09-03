@@ -1,0 +1,48 @@
+<nav>
+  <div class="nav-wrapper" id = "nav">
+    <a href="/" class="brand-logo">News Glimpse</a>
+  </div>
+</nav>
+<div class="container">
+  <div class = "row" id = "content">
+    <div class = "col s1 m3 l2" id = "left">
+        <i id = "previous" class=" large material-icons center-align">skip_previous</i>
+    </div>
+    <div class="col s10 m6 l8">
+      <div class = "valign-wrapper">
+        <div class="card blue-grey darken-1" id = "news">
+          <div class="card-content white-text" id = "storyInfo">
+            <span class="card-title" id = "storyHeadline">Card Title</span>
+            <p id = "summary">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+            <a class="waves-effect waves-light btn" id = "storyLink" href = "" target = "_blank">Read full story</a>
+            <div class = "divider" style = "margin-top: 10px;"></div>
+            <span class = "card-title">Comments</span>
+            <div class = "comments">
+
+            </div>
+            <div class = "divider"></div>
+            <span class = "card-title">Add Comment</span>
+            <textarea id="commentAdded" placeholder = "your comment here" type="text"  class="materialize-textarea" ></textarea>
+          </div>
+          <div class="card-action" id = "cardBottom">
+            <btn class="waves-effect waves-light btn" id = "postNote">Post a comment</btn>
+            <btn class="waves-effect waves-light btn" id = "removeNote">Remove comment</btn>
+            <btn id = "scrape" class = "waves-effect wave-light btn">Get latest story</btn>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s1 m3 l2" id = "right">
+        <i id = "next" class="large material-icons center-align">skip_next</i>
+    </div>
+  </div>
+</div>
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+            © 2016 Copyright Lance Martin
+            <a class="grey-text text-lighten-4 right" href="lance-martin.github.io/Portfolio/" target = "_blank">Go to Lance's portfolio</a>
+    </div>
+  </div>
+</footer>
